@@ -12,5 +12,5 @@ class Config:
         cp = ConfigParser()
         cp.read(file)
         
-        self.apikey = file['ApiKey']
-        self.gamedir = file['GameDirectory']
+        self.apikey = cp['ApiKey']
+        self.gamedir = cp['GameDirectory']

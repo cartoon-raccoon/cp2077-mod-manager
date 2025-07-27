@@ -17,5 +17,6 @@ class DatabaseConn:
                 version TEXT,
                 packagefile TEXT,
                 updated_date TEXT,
-                install_date TEXT
+                install_date TEXT,
+                dependencies TEXT
         )""")
